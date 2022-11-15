@@ -2,7 +2,8 @@ const siteMetadata = {
   title: 'Kmachappy',
   author: 'Alejandro Rojas',
   headerTitle: 'Kmachappy',
-  description: 'Full Stack Developer',
+  description:
+    'Full Stack Developer | Automotive Electrician | Electronics | Keyboards | Runner | Backpacker | Cat Parent',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
