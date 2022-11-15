@@ -9,11 +9,11 @@ export default function AuthorLayout({ children, frontMatter }) {
     <>
       <PageSEO title={`About - ${name}`} description={`About me - ${name}`} />
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
-        <div className="space-y-2 pt-2 pb-2 md:space-y-5">
+        {/* <div className="space-y-2 pt-2 pb-2 md:space-y-5">
           <h1 className="text-2xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-3xl sm:leading-10 md:text-4xl md:leading-10">
             About
           </h1>
-        </div>
+        </div> */}
         <div className="items-start space-y-2 xl:grid xl:grid-cols-3 xl:gap-x-8 xl:space-y-0">
           <div className="flex flex-col items-center pt-8">
             <Image
