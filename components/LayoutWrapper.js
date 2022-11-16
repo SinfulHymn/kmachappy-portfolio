@@ -11,15 +11,15 @@ const LayoutWrapper = ({ children }) => {
   return (
     <SectionContainer>
       <div className="flex h-screen flex-col justify-between">
-        <header className="flex items-center justify-between py-10">
+        <header className="flex items-center justify-between py-8 sm:py-8">
           <div>
             <Link href="/" aria-label={siteMetadata.headerTitle}>
               <div className="flex items-center justify-between">
-                <div className="block h-6 text-2xl font-semibold text-primary-500 sm:hidden">
+                <div className="flex justify-center  text-2xl font-semibold text-primary-500 hover:text-primary-600 dark:text-primary-600 dark:hover:text-primary-500 sm:hidden">
                   {siteMetadata.headerTitle}
                 </div>
                 {typeof siteMetadata.headerTitle === 'string' ? (
-                  <div className="hidden h-6 text-2xl font-semibold text-primary-500 hover:text-primary-600 dark:text-primary-600 dark:hover:text-primary-500 sm:block">
+                  <div className="flex hidden items-center justify-center text-2xl font-semibold text-primary-500 hover:text-primary-600 dark:text-primary-600 dark:hover:text-primary-500 sm:block">
                     {siteMetadata.headerTitle}
                   </div>
                 ) : (
