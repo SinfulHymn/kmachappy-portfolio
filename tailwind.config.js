@@ -28,7 +28,7 @@ module.exports = {
         sans: ['InterVariable', ...defaultTheme.fontFamily.sans],
       },
       colors: {
-        primary: '#3894a3',
+        primary: 'red',
         'primary-500': '#3b2875',
         'primary-600': '#d722b3',
 
@@ -105,13 +105,14 @@ module.exports = {
         },
         dark: {
           css: {
+            '--tw-prose-links': theme('colors.primary-600'),
             color: theme('colors.gray.300'),
             a: {
-              color: theme('colors.primary.500'),
+              color: theme('colors.primary.600'),
               '&:hover': {
-                color: `${theme('colors.primary.400')} !important`,
+                color: `${theme('colors.primary.500')} !important`,
               },
-              code: { color: theme('colors.primary.400') },
+              code: { color: theme('colors.primary.600') },
             },
             h1: {
               fontWeight: '700',
