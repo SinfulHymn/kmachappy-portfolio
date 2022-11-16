@@ -4,22 +4,23 @@ import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
 import { getAllFilesFrontMatter } from '@/lib/mdx'
 import formatDate from '@/lib/utils/formatDate'
-
+import projectsData from '@/data/projectsData'
+import Card from '@/components/Card'
 import NewsletterForm from '@/components/NewsletterForm'
 
 const MAX_DISPLAY = 2
 
 export async function getStaticProps() {
   const posts = await getAllFilesFrontMatter('blog')
-
-  return { props: { posts } }
+  const projects = projectsData
+  return { props: { posts, projects } }
 }
 
 const notFound = () => {
   return <div className="py-6">No Posts Found</div>
 }
 
-export default function Home({ posts }) {
+export default function Home({ posts, projects }) {
   return (
     <>
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
@@ -32,7 +33,24 @@ export default function Home({ posts }) {
             {siteMetadata.description}
           </p>
         </div>
+
+        <div>
+          <div className="py-2 text-2xl font-semibold">Recent Projects</div>
+          <div className="grid grid-cols-1 gap-4  md:grid-cols-2 xl:grid-cols-3">
+            {projectsData.slice(0, MAX_DISPLAY).map((d) => (
+              <Card
+                key={d.title}
+                title={d.title}
+                description={d.description}
+                imgSrc={d.imgSrc}
+                href={d.href}
+              />
+            ))}
+          </div>
+        </div>
+
         <ul className="divide-y divide-primary-500 dark:divide-primary-600">
+          <div className="py-2 text-2xl font-semibold">Recent Projects</div>
           {!posts.length && notFound()}
           {posts.slice(0, MAX_DISPLAY).map((frontMatter) => {
             const { slug, date, title, summary, tags } = frontMatter

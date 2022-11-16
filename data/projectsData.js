@@ -6,6 +6,7 @@ const projectsData = [
     for.`,
     imgSrc: '/static/images/TwistedDreams.jpg',
     href: 'https://kmacshop.herokuapp.com/',
+    date: 'October 2022',
   },
   {
     title: 'Big Guy Auto',
@@ -14,6 +15,7 @@ const projectsData = [
     for.`,
     imgSrc: '/static/images/BigGuy.jpg',
     href: 'https://www.bigguyautobody.com/',
+    date: 'September 2022',
   },
   {
     title: 'AlgoVisualizer',
@@ -22,6 +24,7 @@ const projectsData = [
     for.`,
     imgSrc: '/static/images/AlgoVisualizer.png',
     href: 'https://algorithm-visuals.netlify.app/',
+    date: 'August 2022',
   },
   {
     title: 'KmacShop',
@@ -30,6 +33,7 @@ const projectsData = [
     for.`,
     imgSrc: '/static/images/KmacShop.jpg',
     href: 'https://kmacshop.herokuapp.com/',
+    date: 'July 2022',
   },
   {
     title: 'Therapist Finder',
@@ -38,6 +42,7 @@ const projectsData = [
     for.`,
     imgSrc: '/static/images/TherapistFinder.png',
     href: 'https://therapist-finder.netlify.app/',
+    date: 'June 2022',
   },
   {
     title: 'Runners Page',
@@ -46,6 +51,7 @@ const projectsData = [
     for.`,
     imgSrc: '/static/images/RunnersPage.jpg',
     href: 'https://www.google.com',
+    date: 'May 2022',
   },
   {
     title: 'Marathon View',
@@ -54,6 +60,7 @@ const projectsData = [
     forgotten headphones with this simple yet affordable solution.`,
     imgSrc: '/static/images/MarathonView.jpg',
     href: 'https://kmachappy.github.io/',
+    date: 'April 2022',
   },
 ]
 
