@@ -140,10 +140,10 @@ module.exports = {
             details: {
               backgroundColor: theme('colors.gray.800'),
             },
-            hr: { borderColor: theme('colors.gray.700') },
+            hr: { borderColor: theme('colors.primary-600') },
             'ol li::marker': {
               fontWeight: '600',
-              color: theme('colors.gray.400'),
+              color: theme('colors.primary-600'),
             },
             'ul li::marker': {
               backgroundColor: theme('colors.gray.400'),
