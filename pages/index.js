@@ -52,6 +52,7 @@ export default function Home({ posts, projects }) {
                 description={d.description}
                 imgSrc={d.imgSrc}
                 href={d.href}
+                tags={d.tags}
               />
             ))}
           </div>

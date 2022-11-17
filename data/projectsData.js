@@ -7,6 +7,7 @@ const projectsData = [
     imgSrc: '/static/images/TwistedDreams.jpg',
     href: 'https://kmacshop.herokuapp.com/',
     date: 'October 2022',
+    tags: ['Shopify', 'Nextjs', 'Strapi', 'Tailwind'],
   },
   {
     title: 'Big Guy Auto',
@@ -16,6 +17,7 @@ const projectsData = [
     imgSrc: '/static/images/BigGuy.jpg',
     href: 'https://www.bigguyautobody.com/',
     date: 'September 2022',
+    tags: ['Nextjs', 'Strapi', 'Tailwind'],
   },
   {
     title: 'AlgoVisualizer',
@@ -25,6 +27,7 @@ const projectsData = [
     imgSrc: '/static/images/AlgoVisualizer.png',
     href: 'https://algorithm-visuals.netlify.app/',
     date: 'August 2022',
+    tags: ['React', 'Typescript', 'Tailwind'],
   },
   {
     title: 'KmacShop',
@@ -34,6 +37,7 @@ const projectsData = [
     imgSrc: '/static/images/KmacShop.jpg',
     href: 'https://kmacshop.herokuapp.com/',
     date: 'July 2022',
+    tags: ['Django', 'Python', 'Postgresql', 'Tailwind'],
   },
   {
     title: 'Therapist Finder',
@@ -43,6 +47,7 @@ const projectsData = [
     imgSrc: '/static/images/TherapistFinder.png',
     href: 'https://therapist-finder.netlify.app/',
     date: 'June 2022',
+    tags: ['React', 'Express', 'MongoDB', 'Tailwind'],
   },
   {
     title: 'Runners Page',
@@ -52,6 +57,7 @@ const projectsData = [
     imgSrc: '/static/images/RunnersPage.jpg',
     href: 'https://www.google.com',
     date: 'May 2022',
+    tags: ['Express', 'MongoDB', 'Mongoose', 'Passport', 'Materialize'],
   },
   {
     title: 'Marathon View',
@@ -61,6 +67,7 @@ const projectsData = [
     imgSrc: '/static/images/MarathonView.jpg',
     href: 'https://kmachappy.github.io/',
     date: 'April 2022',
+    tags: ['HTML', 'CSS', 'Javascript', 'Strava API'],
   },
 ]
 
