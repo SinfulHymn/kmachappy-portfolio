@@ -35,14 +35,17 @@ export default function Home({ posts, projects }) {
         </div>
 
         <div className="py-2">
-          <div className="flex justify-between py-2 text-2xl font-semibold">
+          <div className="flex items-center justify-between py-2 text-2xl font-semibold">
             <div>Recent Projects</div>
-            <Link href={'/projects'} className="text-xl">
-              See More {'->'}
-            </Link>
+            {/* <Link
+              href={'/projects'}
+              className="text-base text-primary-500 hover:text-primary-600 dark:text-primary-600 dark:hover:text-primary-500"
+            >
+              All Projects {'->'}
+            </Link> */}
           </div>
           <div className="grid grid-cols-1 gap-4 py-4  md:grid-cols-2 xl:grid-cols-3">
-            {projectsData.slice(0, MAX_DISPLAY).map((d) => (
+            {projectsData.slice(0, 3).map((d) => (
               <Card
                 key={d.title}
                 title={d.title}
@@ -52,6 +55,17 @@ export default function Home({ posts, projects }) {
               />
             ))}
           </div>
+          {projectsData.length > MAX_DISPLAY && (
+            <div className="flex justify-end text-base font-medium leading-8">
+              <Link
+                href="/projects"
+                className="text-primary-500 hover:text-primary-600 dark:text-primary-600 dark:hover:text-primary-500"
+                aria-label="all posts"
+              >
+                All Projects &rarr;
+              </Link>
+            </div>
+          )}
         </div>
         <div className="py-2">
           <div className="py-2 text-2xl font-semibold">Recent Posts</div>
