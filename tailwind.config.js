@@ -15,6 +15,7 @@ module.exports = {
   darkMode: 'class',
   theme: {
     extend: {
+      backgroundImage: {},
       spacing: {
         '9/16': '56.25%',
       },
@@ -28,6 +29,7 @@ module.exports = {
         sans: ['InterVariable', ...defaultTheme.fontFamily.sans],
       },
       colors: {
+        'background-light': '',
         primary: 'red',
         'primary-500': '#3b2875',
         'primary-600': '#d722b3',
