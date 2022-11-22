@@ -45,7 +45,7 @@ export default function Home({ posts, projects }) {
             </Link> */}
           </div>
           <div className="grid grid-cols-1 gap-4 py-4  md:grid-cols-2 xl:grid-cols-3">
-            {projectsData.slice(0, 3).map((d) => (
+            {projectsData.slice(0, 4).map((d) => (
               <Card
                 key={d.title}
                 title={d.title}
