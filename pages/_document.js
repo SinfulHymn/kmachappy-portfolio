@@ -29,8 +29,10 @@ class MyDocument extends Document {
           back-light
           back-dark
           dark:bg-dark 
-          text-black 
-          antialiased  
+          bg-[#f1f1ef] 
+          text-black  
+          antialiased
+          dark:bg-[#21252e]
           dark:text-white
         "
         >
