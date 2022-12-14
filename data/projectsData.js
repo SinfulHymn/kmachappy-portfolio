@@ -19,7 +19,7 @@ const projectsData = [
     title: 'AlgoVisualizer',
     description: `AlgoVisualizer is a web application that allows users to visualize sorting algorithms. It is built with React and Tailwind CSS.`,
     imgSrc: '/static/images/AlgoVisualizer.png',
-    href: 'https://algorithm-visuals.vercel.com/',
+    href: 'https://algorithm-visuals.vercel.app/',
     date: 'August 2022',
     tags: ['React', 'Typescript', 'Tailwind'],
   },
