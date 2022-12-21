@@ -8,7 +8,7 @@ const variants = {
     y: 0,
     transition: {
       duration: 0.45,
-      delay: 0.2,
+      delay: 0.005,
     },
   },
   out: {
