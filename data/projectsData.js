@@ -47,22 +47,22 @@ const projectsData = [
     date: 'May 2022',
     tags: ['Express', 'MongoDB', 'Mongoose', 'Passport', 'Materialize'],
   },
-  {
-    title: 'Marathon View',
-    description: `Athletes Activity Page is a Web App that gathers athletic data from the Strava api. Using the Strava data, the data is displayed graphically and lists all activity statistics for the user to analyze. The strava api is used in conjunction with the Leaflet api to generate a map to display the provided strava polyline data to show a route summary of the chosen activity displayed`,
-    imgSrc: '/static/images/MarathonView.jpg',
-    href: 'https://kmachappy.github.io/',
-    date: 'April 2022',
-    tags: ['HTML', 'CSS', 'Javascript', 'Strava API'],
-  },
-  {
-    title: 'PokeDex',
-    description: `PokeDex is a Web App that gathers data from the PokeAPI. Using the PokeAPI, the data is displayed graphically and lists all pokemon statistics for the user to analyze. The PokeAPI is used in conjunction with the Leaflet api to generate a map to display the provided PokeAPI polyline data to show a route summary of the chosen activity displayed`,
-    imgSrc: '/static/images/MarathonView.jpg',
-    href: 'https://pokedex.kmachost.com/',
-    date: 'April 2022',
-    tags: ['HTML', 'CSS', 'Javascript'],
-  },
+  // {
+  //   title: 'Marathon View',
+  //   description: `Athletes Activity Page is a Web App that gathers athletic data from the Strava api. Using the Strava data, the data is displayed graphically and lists all activity statistics for the user to analyze. The strava api is used in conjunction with the Leaflet api to generate a map to display the provided strava polyline data to show a route summary of the chosen activity displayed`,
+  //   imgSrc: '/static/images/MarathonView.jpg',
+  //   href: 'https://kmachappy.github.io/',
+  //   date: 'April 2022',
+  //   tags: ['HTML', 'CSS', 'Javascript', 'Strava API'],
+  // },
+  // {
+  //   title: 'PokeDex',
+  //   description: `PokeDex is a Web App that gathers data from the PokeAPI. Using the PokeAPI, the data is displayed graphically and lists all pokemon statistics for the user to analyze. The PokeAPI is used in conjunction with the Leaflet api to generate a map to display the provided PokeAPI polyline data to show a route summary of the chosen activity displayed`,
+  //   imgSrc: '/static/images/MarathonView.jpg',
+  //   href: 'https://pokedex.kmachost.com/',
+  //   date: 'April 2022',
+  //   tags: ['HTML', 'CSS', 'Javascript'],
+  // },
 ]
 
 export default projectsData
