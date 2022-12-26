@@ -12,6 +12,7 @@ import Analytics from '@/components/analytics'
 import LayoutWrapper from '@/components/LayoutWrapper'
 import { ClientReload } from '@/components/ClientReload'
 import Transition from '@/components/animations/Transition'
+import PageLoad from '@/components/animations/PageLoad'
 
 const isDevelopment = process.env.NODE_ENV === 'development'
 const isSocket = process.env.SOCKET
@@ -26,7 +27,9 @@ export default function App({ Component, pageProps }) {
       <Analytics />
       <LayoutWrapper>
         <Transition>
-          <Component {...pageProps} />
+          <PageLoad>
+            <Component {...pageProps} />
+          </PageLoad>
         </Transition>
       </LayoutWrapper>
     </ThemeProvider>
