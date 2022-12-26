@@ -17,7 +17,7 @@ export default function Projects() {
           </p>
         </div>
         <div className="container py-12">
-          <div className="grid grid-cols-1 gap-4 sm:-m-4 md:grid-cols-2 xl:grid-cols-3">
+          <div className="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-3">
             {projectsData.map((d) => (
               <Card
                 key={d.title}
