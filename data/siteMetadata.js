@@ -7,10 +7,10 @@ const siteMetadata = {
   theme: 'system', // system, dark or light
   siteUrl: 'https://www.kmachappy.me/',
   siteRepo: 'https://github.com/Kmachappy/kmachappy-portfolio',
-  siteLogo: '/static/images/logo.png',
+  siteLogo: '',
   image: '/static/images/avatar4.png',
-  socialBanner: '/static/images/twitter-card.png',
-  email: 'kmachappy@pm.me',
+  socialBanner: '',
+  email: 'contact@kmachappy.me',
   github: 'https://github.com/kmachappy',
   twitter: 'https://twitter.com/kmachappy',
   facebook: 'https://facebook.com',
