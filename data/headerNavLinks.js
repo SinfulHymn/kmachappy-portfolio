@@ -4,7 +4,7 @@ const headerNavLinks = [
   { href: '/blog', title: 'Blog' },
   { href: '/about', title: 'About' },
   {
-    href: 'https://docs.google.com/document/d/15Zoev5bE0kOupi60JVkM71ld10K_hJjMHsRlccU3nSI/edit?usp=sharing',
+    href: 'https://drive.google.com/file/d/1kJaVTw8-K5T3-mHM45Jkf6S1j1wv28Wp/view?usp=sharing',
     title: 'Resume',
   },
 ]
