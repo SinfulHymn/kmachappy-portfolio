@@ -24,8 +24,8 @@ export default function Home({ posts, projects }) {
   return (
     <>
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
-      <div className="divide-y divide-primary-500 dark:divide-primary-600">
-        <div className="space-y-2 py-4 md:space-y-5">
+      <div className="">
+        <div className="space-y-2 py-8 md:space-y-5">
           <h1 className="text-2xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-white sm:text-2xl sm:leading-10 md:text-4xl md:leading-5">
             Hello, I am {siteMetadata.firstName.substring(0, 3)}
             <span className="text-primary-600">{siteMetadata.firstName.substring(3, 6)}</span>

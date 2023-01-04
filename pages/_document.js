@@ -32,7 +32,7 @@ class MyDocument extends Document {
           bg-[#f1f1ef] 
           text-black  
           antialiased
-          dark:bg-[#21252e]
+          dark:bg-[#120724]
           dark:text-white
         "
         >
