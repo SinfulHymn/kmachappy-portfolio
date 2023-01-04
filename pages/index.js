@@ -60,6 +60,7 @@ export default function Home({ posts, projects }) {
                 imgSrc={d.imgSrc}
                 href={d.href}
                 tags={d.tags}
+                repo={d.repo}
               />
             ))}
           </div>
