@@ -26,8 +26,10 @@ export default function Home({ posts, projects }) {
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
       <div className="divide-y divide-primary-500 dark:divide-primary-600">
         <div className="space-y-2 py-4 md:space-y-5">
-          <h1 className="text-2xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-2xl sm:leading-10 md:text-3xl md:leading-5">
-            Alejandro Rojas
+          <h1 className="text-2xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-white sm:text-2xl sm:leading-10 md:text-4xl md:leading-5">
+            Hello, I am {siteMetadata.firstName.substring(0, 3)}
+            <span className="text-primary-600">{siteMetadata.firstName.substring(3, 6)}</span>
+            {siteMetadata.firstName.substring(6)} {siteMetadata.lastName}
           </h1>
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
             {siteMetadata.description}
@@ -49,7 +51,7 @@ export default function Home({ posts, projects }) {
               </div>
             )}
           </div>
-          <div className="grid grid-cols-1 gap-4 py-4  md:grid-cols-2 xl:grid-cols-3">
+          <div className="grid grid-cols-1 gap-4 py-4 md:grid-cols-2 xl:grid-cols-2">
             {projectsData.slice(0, 4).map((d) => (
               <Card
                 key={d.title}

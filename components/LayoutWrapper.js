@@ -6,10 +6,25 @@ import SectionContainer from './SectionContainer'
 import Footer from './Footer'
 import MobileNav from './MobileNav'
 import ThemeSwitch from './ThemeSwitch'
+import LeftDarkGradient from './background/left-dark-gradient.svg'
+import RightDarkGradient from './background/right-dark-gradient.svg'
 
 const LayoutWrapper = ({ children }) => {
   return (
     <SectionContainer>
+      <div className="fixed -bottom-11 -left-28 -z-10 h-full w-full opacity-60 sm:-top-1/2 sm:-left-96">
+        <LeftDarkGradient />
+      </div>
+      <div className="fixed -top-96 right-64 -z-10 h-full w-full opacity-60 sm:-right-1/4">
+        <RightDarkGradient />
+      </div>
+      <div className="fixed -bottom-11 -left-28 -z-10 h-full w-full opacity-60 sm:-bottom-[30%] sm:-left-[10%]">
+        <RightDarkGradient />
+      </div>
+      <div className="fixed -top-64 right-64 -z-10 h-full w-full opacity-60 sm:-top-64 md:-right-[60%]">
+        <RightDarkGradient />
+      </div>
+
       <div className="flex h-screen flex-col justify-between">
         <header className="flex items-center justify-between py-8 sm:py-8">
           <div>

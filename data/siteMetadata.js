@@ -1,8 +1,11 @@
 const siteMetadata = {
   title: 'Kmachappy',
   author: 'Alejandro Rojas',
+  firstName: 'Alejandro',
+  lastName: 'Rojas',
   headerTitle: 'Kmachappy',
-  description: 'Full Stack Developer',
+  description:
+    'Navigating the tech world with self-taught skills and a love for coding and cybersecurity"',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://www.kmachappy.me/',

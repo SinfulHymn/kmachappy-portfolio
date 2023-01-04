@@ -3,7 +3,7 @@ import Link from './Link'
 import Tag from './Tag'
 
 const Card = ({ title, description, imgSrc, href, tags }) => (
-  <div className="dark:bg- w-full rounded-xl bg-[#e1e1df] bg-opacity-50 dark:bg-[#181a21] dark:bg-opacity-50">
+  <div className="dark:bg- w-full rounded-xl bg-[#f1f1f1] bg-opacity-50 dark:bg-[#181a21] dark:bg-opacity-50">
     <div
       className={`${
         imgSrc && 'h-full'
@@ -15,7 +15,7 @@ const Card = ({ title, description, imgSrc, href, tags }) => (
             <Image
               alt={title}
               src={imgSrc}
-              className="object-cover object-center md:h-[240px]"
+              className="w-full object-cover object-center md:h-[240px]"
               width={544}
               height={306}
             />
@@ -29,7 +29,7 @@ const Card = ({ title, description, imgSrc, href, tags }) => (
             height={306}
           />
         ))}
-      <div className="p-6">
+      <div className="p-6 ">
         <h2 className="leading-8s mb-1 text-2xl font-bold tracking-tight">
           {href ? (
             <Link href={href} aria-label={`Link to ${title}`}>
@@ -44,7 +44,7 @@ const Card = ({ title, description, imgSrc, href, tags }) => (
             <Tag key={tag} text={tag} />
           ))}
         </div>
-        <p className="prose  mb-2 max-w-none text-gray-500  dark:text-gray-400">{description}</p>
+        <p className="prose mb-2 max-w-none text-gray-500  dark:text-gray-400">{description}</p>
         {href && (
           <Link
             href={href}
