@@ -7,6 +7,7 @@ import formatDate from '@/lib/utils/formatDate'
 import projectsData from '@/data/projectsData'
 import Card from '@/components/Card'
 import NewsletterForm from '@/components/NewsletterForm'
+import ButtonCard from '@/components/ButtonCard'
 
 const MAX_DISPLAY = 2
 
@@ -34,7 +35,23 @@ export default function Home({ posts, projects }) {
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
             {siteMetadata.description}
           </p>
+          <div className="flex w-full flex-wrap">
+            <ButtonCard
+              title={'Projects'}
+              description={'Check out my projects'}
+              href={'/projects'}
+              className="py-4 md:px-4"
+            />
+            <ButtonCard
+              title={'Projects'}
+              description={'Check out my projects'}
+              href={'/projects'}
+              className="py-4 md:px-4"
+            />
+          </div>
         </div>
+
+        <div></div>
 
         <div className="py-2">
           <div className="flex items-center justify-between py-2 text-2xl font-semibold">

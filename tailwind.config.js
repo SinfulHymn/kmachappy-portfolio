@@ -33,6 +33,12 @@ module.exports = {
         primary: 'red',
         'primary-500': '#3b2875',
         'primary-600': '#d722b3',
+        violet: {
+          ...colors.violet,
+          30: '#f9f4fc',
+          950: '#170a2d',
+          1000: '#120724',
+        },
 
         gray: colors.neutral,
       },
