@@ -52,7 +52,7 @@ const securityHeaders = [
   },
 ]
 
-module.exports = withBundleAnalyzer({
+const nextConfig = {
   reactStrictMode: true,
   pageExtensions: ['js', 'jsx', 'md', 'mdx'],
   eslint: {
@@ -84,4 +84,12 @@ module.exports = withBundleAnalyzer({
 
     return config
   },
-})
+}
+
+module.exports = (_phase) => {
+  const plugins = [withBundleAnalyzer]
+  const config = plugins.reduce((acc, plugin) => plugin(acc), {
+    ...nextConfig,
+  })
+  return config
+}

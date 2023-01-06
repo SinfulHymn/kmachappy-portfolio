@@ -25,7 +25,7 @@ export default function Home({ posts, projects }) {
   return (
     <>
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
-      <div className="">
+      <div className="nothing">
         <div className="space-y-2 py-8 md:space-y-5">
           <h1 className="text-2xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-white sm:text-2xl sm:leading-10 md:text-4xl md:leading-5">
             Hello, I am {siteMetadata.firstName.substring(0, 3)}
@@ -40,13 +40,19 @@ export default function Home({ posts, projects }) {
               title={'Projects'}
               description={'Check out my projects'}
               href={'/projects'}
-              className="py-4 md:px-4"
+              className="py-4 md:px-2"
             />
             <ButtonCard
-              title={'Projects'}
-              description={'Check out my projects'}
-              href={'/projects'}
-              className="py-4 md:px-4"
+              title={'About'}
+              description={'Learn more about me'}
+              href={'/about'}
+              className="py-4 md:px-2"
+            />
+            <ButtonCard
+              title={'Blog'}
+              description={'Read my blog posts'}
+              href={'/blog'}
+              className="py-4 md:px-2"
             />
           </div>
         </div>

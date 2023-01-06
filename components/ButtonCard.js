@@ -4,9 +4,9 @@ import Image from './Image'
 import Link from './Link'
 
 const calc = (x, y, rect, onlyImg) => [
-  -(y - rect.top - rect.height / 2) / (onlyImg ? 4 : 10),
+  -(y - rect.top - rect.height / 2) / (onlyImg ? 4 : 1),
   (x - rect.left - rect.width / 2) / (onlyImg ? 4 : 10),
-  onlyImg ? 1.05 : 0.95,
+  onlyImg ? 1.05 : 0.92,
 ]
 const trans = (x, y, s) => `perspective(600px) rotateX(${x}deg) rotateY(${y}deg) scale(${s})`
 
@@ -26,7 +26,7 @@ const ButtonCard = ({
 
   return (
     <div
-      className={`${!onlyImg && mdSize && 'w-full md:w-1/2'} ${className} overflow-hidden`}
+      className={`${!onlyImg && mdSize && 'w-full md:w-1/3'} ${className} overflow-hidden`}
       ref={ref}
     >
       <div
@@ -52,9 +52,9 @@ const ButtonCard = ({
             {imgSrc && <Image alt={title} src={imgSrc} className="object-cover object-center" />}
             {onlyImg && <>{children}</>}
             {!onlyImg && (
-              <div className="p-5">
-                <h2 className="mb-2 text-2xl font-bold leading-8 tracking-tight">{title}</h2>
-                <p className="prose mb-2 max-w-none text-gray-500 dark:text-gray-400">
+              <div className="p-4">
+                <h2 className="mb-1 text-2xl font-bold leading-8 tracking-tight">{title}</h2>
+                <p className="prose mb-1 max-w-none text-gray-500 dark:text-gray-400">
                   {description}
                 </p>
                 <div className="dark:hover:text-primary-400 text-2xl font-thin leading-6 text-primary-500 hover:text-primary-600">
