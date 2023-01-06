@@ -101,7 +101,7 @@ export default function Home({ posts, projects }) {
         </div>
         <div className="py-2">
           <div className="py-2 text-2xl font-semibold">Recent Posts</div>
-          <ul className="divide-y divide-primary-500 dark:divide-primary-600">
+          <ul className="">
             {!posts.length && notFound()}
             {posts.slice(0, MAX_DISPLAY).map((frontMatter) => {
               const { slug, date, title, summary, tags } = frontMatter
@@ -116,7 +116,7 @@ export default function Home({ posts, projects }) {
                         </dd>
                       </dl>
                       <div className="space-y-5 xl:col-span-3">
-                        <div className="space-y-6">
+                        <div className="space-y-2">
                           <div>
                             <h2 className="text-2xl font-bold leading-8 tracking-tight">
                               <Link
@@ -126,7 +126,7 @@ export default function Home({ posts, projects }) {
                                 {title}
                               </Link>
                             </h2>
-                            <div className="flex flex-wrap">
+                            <div className="flex flex-wrap py-2">
                               {tags.map((tag) => (
                                 <Tag key={tag} text={tag} />
                               ))}
