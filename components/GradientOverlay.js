@@ -3,7 +3,7 @@ import Image from 'next/image'
 export default function GradientOverlay() {
   return (
     <>
-      <div className="fixed -bottom-11 -left-28 -z-10 h-full w-full opacity-100 sm:-top-1/3 sm:-left-0">
+      <div className="fixed bottom-0 left-12 -z-10 h-full w-full opacity-100 sm:-bottom-11 sm:-top-1/3 sm:-left-0">
         <Image
           src={'/static/images/left-dark-gradient.png'}
           alt="Picture of the author"
@@ -12,7 +12,7 @@ export default function GradientOverlay() {
           priority
         ></Image>
       </div>
-      <div className="fixed -top-96 right-64 -z-10 h-full w-full opacity-100 sm:-right-1/4">
+      <div className="fixed top-96 -right-24 -z-10  h-full w-full opacity-100 sm:-top-96 sm:-right-1/4">
         <Image
           src={'/static/images/right-dark-gradient.png'}
           alt="Picture of the author"
@@ -39,7 +39,7 @@ export default function GradientOverlay() {
           priority
         ></Image>
       </div>
-      <div className="fixed top-96 right-64 -z-10 h-full w-full opacity-100 sm:-right-3/4">
+      <div className="fixed top-1/2 right-56 -z-10 h-full w-full opacity-100 sm:-right-3/4">
         <Image
           src={'/static/images/right-dark-gradient.png'}
           alt="Picture of the author"
