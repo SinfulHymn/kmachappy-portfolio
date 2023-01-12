@@ -44,8 +44,8 @@ const ButtonCard = ({
             }}
             className={`${
               onlyImg && 'h-32 w-32'
-            } after:bg-texture-pattern hover:after:animate-hue-animation relative z-20 h-full overflow-hidden
-          rounded-md bg-violet-30 will-change-transform after:pointer-events-none after:absolute after:inset-0 after:z-10
+            } hover:after:animate-hue-animation relative z-20 h-full overflow-hidden rounded-md
+          bg-violet-30 will-change-transform after:pointer-events-none after:absolute after:inset-0 after:z-10 after:bg-texture-pattern
           after:bg-cover after:bg-no-repeat after:opacity-0 after:mix-blend-hard-light after:transition-opacity
           after:duration-500 after:will-change-auto hover:after:opacity-100 dark:bg-violet-950`}
           >

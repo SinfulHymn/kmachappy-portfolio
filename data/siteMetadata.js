@@ -5,7 +5,7 @@ const siteMetadata = {
   lastName: 'Rojas',
   headerTitle: 'Kmachappy',
   description:
-    'Navigating the tech world with self-taught skills and a love for coding and cybersecurity"',
+    'Navigating the tech world with self-taught skills and a love for coding and cybersecurity',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://www.kmachappy.me/',

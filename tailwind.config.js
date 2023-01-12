@@ -15,7 +15,6 @@ module.exports = {
   darkMode: 'class',
   theme: {
     extend: {
-      backgroundImage: {},
       spacing: {
         '9/16': '56.25%',
       },
@@ -24,6 +23,9 @@ module.exports = {
         12: '3rem',
         13: '3.25rem',
         14: '3.5rem',
+      },
+      backgroundImage: {
+        'texture-pattern': "url('/static/images/right-dark-gradient.svg')",
       },
       fontFamily: {
         sans: ['InterVariable', ...defaultTheme.fontFamily.sans],
