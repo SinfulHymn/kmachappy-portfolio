@@ -12,12 +12,12 @@ export default function GradientOverlay() {
           priority
         ></Image>
       </div>
-      <div className="fixed -top-96 right-64 -z-10 h-full w-full   opacity-100 sm:-right-1/4">
+      <div className="fixed -top-96 right-64 -z-10 h-full w-full opacity-100 sm:-right-1/4">
         <Image
           src={'/static/images/right-dark-gradient.png'}
           alt="Picture of the author"
-          width={1000}
-          height={800}
+          width={1500}
+          height={1500}
           priority
         ></Image>
       </div>
@@ -25,7 +25,7 @@ export default function GradientOverlay() {
         <Image
           src={'/static/images/right-dark-gradient.png'}
           alt="Picture of the author"
-          width={800}
+          width={1700}
           height={800}
           priority
         ></Image>
@@ -34,8 +34,8 @@ export default function GradientOverlay() {
         <Image
           src={'/static/images/left-dark-gradient.png'}
           alt="Picture of the author"
-          width={800}
-          height={800}
+          width={10}
+          height={80}
           priority
         ></Image>
       </div>
@@ -43,8 +43,8 @@ export default function GradientOverlay() {
         <Image
           src={'/static/images/right-dark-gradient.png'}
           alt="Picture of the author"
-          width={1000}
-          height={800}
+          width={1300}
+          height={1300}
           priority
         ></Image>
       </div>
