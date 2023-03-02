@@ -28,7 +28,10 @@ export default function Home({ posts, projects }) {
       <div className="nothing">
         <div className="space-y-2 py-8 md:space-y-5">
           <h1 className="text-2xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-white sm:text-2xl sm:leading-10 md:text-4xl md:leading-5">
-            Hi, I'm {siteMetadata.firstName} {siteMetadata.lastName}
+            Hello, I'm{' '}
+            <span className=" text-primary-500 dark:text-primary-600">
+              {siteMetadata.firstName} {siteMetadata.lastName}
+            </span>
             {/* {siteMetadata.firstName.substring(0, 3)}
             <span className="text-primary-600">{siteMetadata.firstName.substring(3, 6)}</span>
             {siteMetadata.firstName.substring(6)} {siteMetadata.lastName} */}
