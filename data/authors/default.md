@@ -1,6 +1,6 @@
 ---
 name: Alejandro Rojas
-avatar: /static/images/avatar4.png
+avatar: /static/images/avatar2.png
 occupation: Full Stack Developer, Automotive Electrician
 company: Freelancer, Big Guy Auto Body
 email: rojas.ale@pm.me
@@ -9,7 +9,7 @@ linkedin: https://www.linkedin.com/in/Kmachappy/
 github: https://github.com/Kmachappy
 ---
 
-### [Hello, I am Kmachappy](http://www.kmachappy.me/)
+### [Hello, I am Kmachappy](http://www.kmachappy.me/) 
 
 [Kmachappy](http://kbdmodadmin.cafe24.com/product/detail.html?product_no=15&cate_no=1&display_group=11) (kay-mak-hap-ee): HHKB layout Korean Keyboard
 
