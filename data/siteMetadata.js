@@ -1,11 +1,10 @@
 const siteMetadata = {
-  title: 'Kmachappy',
+  title: 'SinfulHymn',
   author: 'Alejandro Rojas',
   firstName: 'Alejandro',
   lastName: 'Rojas',
-  headerTitle: 'Kmachappy',
-  description:
-    'Navigating the tech world with self-taught skills and a love for coding and cybersecurity',
+  headerTitle: 'SinfulHymn',
+  description: 'Exploring Depths: A Journey of Self-Discovery, Coding, and Cybersecurity',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://www.kmachappy.me/',
@@ -13,7 +12,7 @@ const siteMetadata = {
   siteLogo: '',
   image: '/static/images/avatar4.png',
   socialBanner: '',
-  email: 'contact@kmachappy.me',
+  email: 'contact@sinfulhymn.me',
   github: 'https://github.com/kmachappy',
   twitter: 'https://twitter.com/kmachappy',
   facebook: 'https://facebook.com',

@@ -1,13 +1,13 @@
 const projectsData = [
-  {
-    title: 'Twisted Dreams Haunt',
-    description: `Twisted Dreams Haunt is a client website for a local haunted house. The site was built using Next.js and Tailwind CSS. The site is hosted on Vercel and uses a custom CMS built with Next.js and postgresql`,
-    imgSrc: '/static/images/TwistedDreams.jpg',
-    href: 'https://www.twisteddreamshaunt.com/',
-    repo: 'https://github.com/Kmachappy/Twisted-Dreams-Haunt',
-    date: 'October 2022',
-    tags: ['Shopify', 'Nextjs', 'Strapi', 'Tailwind'],
-  },
+  // {
+  //   title: 'Twisted Dreams Haunt',
+  //   description: `Twisted Dreams Haunt is a client website for a local haunted house. The site was built using Next.js and Tailwind CSS. The site is hosted on Vercel and uses a custom CMS built with Next.js and postgresql`,
+  //   imgSrc: '/static/images/TwistedDreams.jpg',
+  //   href: 'https://www.twisteddreamshaunt.com/',
+  //   repo: 'https://github.com/Kmachappy/Twisted-Dreams-Haunt',
+  //   date: 'October 2022',
+  //   tags: ['Shopify', 'Nextjs', 'Strapi', 'Tailwind'],
+  // },
   {
     title: 'Big Guy Auto',
     description: `Big Guy Auto is a client website for a local auto repair shop. The site is built with Next.js and Tailwind CSS. The site is hosted on Vercel and uses a headless CMS called Strapi.`,

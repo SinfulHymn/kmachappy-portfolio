@@ -22,7 +22,7 @@ const LayoutWrapper = ({ children }) => {
                   {siteMetadata.headerTitle}
                 </div>
                 {typeof siteMetadata.headerTitle === 'string' ? (
-                  <div className="flex hidden items-center justify-center text-2xl font-semibold text-primary-500 hover:text-primary-600 dark:text-primary-600 dark:hover:text-primary-500 sm:block">
+                  <div className="flex items-center justify-center text-2xl font-semibold text-primary-500 hover:text-primary-600 dark:text-primary-600 dark:hover:text-primary-500 sm:block">
                     {siteMetadata.headerTitle}
                   </div>
                 ) : (
